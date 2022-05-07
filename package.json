@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/AnnaMels/goit-js-hw-08/issues"
   },
-  "homepage": "https://имя_пользователя.github.io/goit-js-hw-08",
+  "homepage": "https://AnnaMels.github.io/goit-js-hw-08",
   "dependencies": {
     "@vimeo/player": "^2.16.4",
     "lodash.throttle": "^4.1.1",
@@ -25,7 +25,9 @@
     "throttle-debounce": "^5.0.0"
   },
   "devDependencies": {
-    "cssnano": "^4.1.11",
+    "cssnano": "^5.1.17",
     "postcss": "^8.4.13"
   }
 }
+
+
