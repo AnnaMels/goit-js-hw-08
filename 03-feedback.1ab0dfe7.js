@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"TTyb":[function(require,module,exports) {
 "use strict";var e=require("throttle-debounce"),t=document.querySelector(".feedback-form"),a=document.querySelector("input"),r=document.querySelector("textarea"),l="feedback-form-state",o=localStorage.getItem(l),n=JSON.parse(o);function s(){var e={email:t.elements.email.value,message:t.elements.message.value};localStorage.setItem(l,JSON.stringify(e))}function u(e){e.preventDefault(),console.log(n),t.reset(),localStorage.removeItem(l)}t.addEventListener("input",(0,e.throttle)(500,s)),t.addEventListener("submit",u),n&&(a.value=n.email,r.value=n.message);
 },{"throttle-debounce":"CpHm"}]},{},["TTyb"], null)
-//# sourceMappingURL=goit-js-hw-08/03-feedback.1ab0dfe7.js.map
+//# sourceMappingURL=https://annamels.github.io/goit-js-hw-08/03-feedback.1ab0dfe7.js.map

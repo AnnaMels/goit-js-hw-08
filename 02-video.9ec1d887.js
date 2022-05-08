@@ -6,4 +6,4 @@ var e=arguments[3];function t(e,t){if(!(e instanceof t))throw new TypeError("Can
 },{}],"iiAF":[function(require,module,exports) {
 "use strict";var e=r(require("@vimeo/player")),t=require("throttle-debounce");function r(e){return e&&e.__esModule?e:{default:e}}var u=document.querySelector("iframe"),o=new e.default(u),n="videoplayer-current-time";o.on("timeupdate",(0,t.throttle)(1e3,function(){o.getCurrentTime().then(function(e){localStorage.setItem(n,e)})})),o.setCurrentTime(localStorage.getItem(n));
 },{"@vimeo/player":"rXiO","throttle-debounce":"CpHm"}]},{},["iiAF"], null)
-//# sourceMappingURL=goit-js-hw-08/02-video.9ec1d887.js.map
+//# sourceMappingURL=https://annamels.github.io/goit-js-hw-08/02-video.9ec1d887.js.map
