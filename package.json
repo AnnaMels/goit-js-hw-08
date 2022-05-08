@@ -6,13 +6,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html --public-url goit-js-hw-08"
+    "build": "parcel build index.html --public-url https://annamels.github.io/goit-js-hw-08"
   },
-
   "browserify": {
-  "transform": ["babelify"]
-},
-
+    "transform": [
+      "babelify"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AnnaMels/goit-js-hw-08.git"
