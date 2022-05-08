@@ -1,38 +1,35 @@
 {
-  "name": "goit-js-hw-08",
-  "version": "1.0.0",
-  "type": "module",
+  "name": "parcel-project-template",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://goitacademy.github.io/goit-js-hw-08",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html --public-url https://annamels.github.io/goit-js-hw-08"
-  },
-  "browserify": {
-    "transform": [
-      "babelify"
-    ]
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnnaMels/goit-js-hw-08.git"
+    "url": "git+https://github.com/AnnaMels/goit-js-hw-08"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnnaMels/goit-js-hw-08/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
-  "homepage": "https://AnnaMels.github.io/goit-js-hw-08",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
   "dependencies": {
     "@vimeo/player": "^2.16.4",
     "lodash.throttle": "^4.1.1",
     "milsymbol": "^2.0.0",
     "simplelightbox": "^2.10.3",
     "throttle-debounce": "^5.0.0"
-  },
-  "devDependencies": {
-    "cssnano": "^4.1.11",
-    "postcss": "^8.4.13"
   }
 }
