@@ -7,11 +7,12 @@ const CURRENT_TIME_KEY = 'videoplayer-current-time';
 
 player.on('timeupdate', throttle(1000, () => {
     player.getCurrentTime().then(function (seconds) {
-        localStorage.setItem(CURRENT_TIME_KEY, seconds);
+       localStorage.setItem(CURRENT_TIME_KEY, seconds);
     });
 }));
 
-player.setCurrentTime(localStorage.getItem(CURRENT_TIME_KEY));
 
-
+if (localStorage.getItem(CURRENT_TIME_KEY)) {
+    player.setCurrentTime(localStorage.getItem(CURRENT_TIME_KEY))
+}
 
